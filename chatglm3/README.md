@@ -1,5 +1,8 @@
 # ChatGLM3微调：AdvertiseGen数据集
 
+## 微调目的
+当输入一系列的商品Tag后，能自动生成合适的电商广告词。
+
 ## 微调趋势记录
 ![training_log](./training_log.png)
 
@@ -15,17 +18,6 @@
 
 ## 数据集
 https://huggingface.co/datasets/shibing624/AdvertiseGen
-
-## 文件列表
-```
-.
-├── chatglm3-6b-ft-advertisegen.py
-├── chatglm3_6b_finetuning.ipynb
-├── chatglm3_6b_inference.ipynb
-├── metrics.py
-├── tokenization.py
-└── training_log.png
-```
 
 ## 步骤
 1. 运行微调脚本chatglm3-6b-ft-advertisegen.py
